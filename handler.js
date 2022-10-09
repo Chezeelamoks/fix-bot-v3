@@ -905,7 +905,7 @@ export async function handler(chatUpdate) {
                         antiSticker: false,
                         antiToxic: false,
                         detect: false,
-                        delete: false,
+                        delete: true,
                         expired: 0,
                         getmsg: false,
                         isBanned: false,
